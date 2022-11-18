@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32407.343
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BeatLeaderLib", "BeatLeaderLib\BeatLeaderLib.csproj", "{6130059B-DA13-4701-A49F-F722FE781278}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BeatLeaderLibTests", "BeatLeaderLibTests\BeatLeaderLibTests.csproj", "{DE91032F-D374-458B-A6F0-6B1DFE4F01EE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6130059B-DA13-4701-A49F-F722FE781278}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6130059B-DA13-4701-A49F-F722FE781278}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6130059B-DA13-4701-A49F-F722FE781278}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6130059B-DA13-4701-A49F-F722FE781278}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DE91032F-D374-458B-A6F0-6B1DFE4F01EE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DE91032F-D374-458B-A6F0-6B1DFE4F01EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DE91032F-D374-458B-A6F0-6B1DFE4F01EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DE91032F-D374-458B-A6F0-6B1DFE4F01EE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D130CCF9-2B50-4771-9B97-14D6C64D988C}
+	EndGlobalSection
+EndGlobal
