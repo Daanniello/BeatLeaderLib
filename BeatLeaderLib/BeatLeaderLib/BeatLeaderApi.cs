@@ -6,5 +6,6 @@ namespace BeatLeaderLib
     {
         public Clan Clan = new Clan();
         public Leaderboard Leaderboard = new Leaderboard();
+        public Players Player = new Players();
     }
 }

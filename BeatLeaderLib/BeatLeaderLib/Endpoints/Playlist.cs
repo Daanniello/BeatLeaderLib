@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace BeatLeaderLib.Endpoints
 {
-    internal class Playerlist
+    internal class Playlist
     {
     }
 }
