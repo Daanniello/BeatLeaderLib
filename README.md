@@ -2,30 +2,17 @@
 
 The BeatLeaderLib is easy to use and consists currently of the following categories of endpoints:
 
-(Included)
-- Clan
-- Leaderboard
-- Players
-
-(Not includes yet)
-- MiniRanking
-- Playlist
-- Rank
-- Score
-- Song
-- Stats
-
 **How to use?**\
 Install the package from NuGet
 
 **Some examples of getting data:**
 ```
-var beatleaderApi = new BeatLeaderApi()
+var beatleaderClient= new BeatLeaderClient()
 
 //Gives all players from the country NL
-var players = beatleaderApi.Players.GetPlayers(country: "nl");
+var player = beatleaderClient.GetPlayersAsync("76561198187936410");
 
 //Gives a specific leaderboard
-var leaderboard = beatleaderApi.Leaderboard.GetLeaderboardByHash("4E19C93FF2D7E086536AEAB2F551C2E184160640");
+var leaderboard = beatleaderClient.GetLeaderboardsByHashAsync("4E19C93FF2D7E086536AEAB2F551C2E184160640");
 ```
 
