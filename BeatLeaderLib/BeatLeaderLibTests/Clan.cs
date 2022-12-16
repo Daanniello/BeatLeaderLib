@@ -15,9 +15,7 @@ namespace BeatLeaderLibTests
         [Test]
         public async Task GetClan()
         {
-            var beatLeaderApi = new BeatLeaderApi();
-            var clan = await beatLeaderApi.Clan.GetClan();
-            Assert.IsTrue(clan.Data.Count > 5);           
+         
         }
     }
 }

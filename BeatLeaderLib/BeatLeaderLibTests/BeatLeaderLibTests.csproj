@@ -5,6 +5,10 @@
     <Nullable>enable</Nullable>
 
     <IsPackable>false</IsPackable>
+
+    <AssemblyVersion></AssemblyVersion>
+
+    <FileVersion></FileVersion>
   </PropertyGroup>
 
   <ItemGroup>
