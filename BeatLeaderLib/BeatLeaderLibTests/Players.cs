@@ -15,7 +15,7 @@ namespace BeatLeaderLibTests
         public async Task GetPlayer()
         {
             var beatLeaderApi = new BeatLeaderClient();
-            var player = await beatLeaderApi.("76561198187936410");
+            var player = await beatLeaderApi.GetPlayerAsync("76561198187936410");
             Assert.IsTrue(player.Id == "76561198187936410");           
         }
 
