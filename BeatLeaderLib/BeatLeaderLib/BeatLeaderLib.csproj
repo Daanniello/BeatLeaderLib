@@ -4,6 +4,10 @@
     <TargetFramework>net6.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
+    <RepositoryUrl>https://github.com/Daanniello/BeatLeaderLib</RepositoryUrl>
+    <PackageProjectUrl>https://github.com/Daanniello/BeatLeaderLib</PackageProjectUrl>
+    <Description>BeatLeaderLib is a wrapper for the BeatLeader API. 
+Its easy to use. new BeatLeaderApi() and thats it.</Description>
   </PropertyGroup>
 
   <ItemGroup>
