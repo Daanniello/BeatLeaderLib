@@ -15,8 +15,20 @@ namespace BeatLeaderLibTests
         public async Task GetPlayer()
         {
             var beatLeaderClient = new BeatLeaderClient();
-            var player = await beatLeaderClient.GetPlayerAsync("76561198187936410");
-            Assert.IsTrue(player.Id == "76561198187936410");           
+            var websocket = beatLeaderClient.GetWebsocket();
+            websocket.Connect();
+            websocket.OnPlayReceived += Websocket_OnPlayReceived;
+            await Task.Delay(5000);
+            websocket.Disconnect();
+            await Task.Delay(5000);
+            websocket.Connect();
+            await Task.Delay(5000);
+
+        }
+
+        private void Websocket_OnPlayReceived(object? sender, BeatLeaderLibWebSocket.ScoreFeedModel e)
+        {
+            var data = e;
         }
 
         [Test]

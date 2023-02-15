@@ -15,6 +15,8 @@
 
 namespace BeatLeaderLib
 {
+    using BeatLeaderLibWebSocket;
+    using System.Net.Http;
     using System = global::System;
 
     [System.CodeDom.Compiler.GeneratedCode("NSwag", "13.18.2.0 (NJsonSchema v10.8.0.0 (Newtonsoft.Json v11.0.0.0))")]
@@ -29,6 +31,12 @@ namespace BeatLeaderLib
             BaseUrl = "https://api.beatleader.xyz/";
             _httpClient = new HttpClient();
             _settings = new System.Lazy<Newtonsoft.Json.JsonSerializerSettings>(CreateSerializerSettings);
+        }
+
+        public WebSocket GetWebsocket()
+        {
+            var websocket = new WebSocket();
+            return websocket;
         }
 
         private Newtonsoft.Json.JsonSerializerSettings CreateSerializerSettings()
@@ -6637,7 +6645,6 @@ namespace BeatLeaderLib
             Result = result;
         }
     }
-
 }
 
 #pragma warning restore 1591
@@ -6647,3 +6654,4 @@ namespace BeatLeaderLib
 #pragma warning restore 108
 #pragma warning restore 3016
 #pragma warning restore 8603
+
